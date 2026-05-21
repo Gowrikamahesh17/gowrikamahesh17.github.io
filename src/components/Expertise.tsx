@@ -6,39 +6,44 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
     "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Gemini",
+    "Llama",
+    "LLM Orchestration",
+    "RAG Pipelines",
+    "Prompt Engineering",
+    "Streamlit",
+    "Hugging Face",
+    "scikit-learn",
+    "TensorFlow",
+    "Neural Networks",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Autonomous Agents",
+    "ReAct Frameworks",
+    "Multi-Agent Orchestration",
+    "State Machines",
+    "Tool-Use LLMs",
+    "ChromaDB",
+    "FAISS",
+    "Embeddings",
+    "Semantic Chunking",
+    "ETL Pipelines",
+    "BigQuery",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "GCP",
+    "Cloud Run",
+    "Docker",
+    "SQL",
+    "Git",
+    "Active Directory",
+    "Windows Server",
+    "Identity Management",
+    "Fairlearn",
+    "Differential Privacy",
 ];
 
 function Expertise() {
@@ -48,9 +53,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <h3>Generative AI & Machine Learning</h3>
+                    <p>Master's student in Applied Data Science building end-to-end GenAI systems. Hands-on experience designing LLM pipelines, RAG architectures, and responsible AI solutions from ideation to operationalization.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,9 +65,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faReact} size="3x"/>
+                    <h3>Agentic AI & Data Retrieval</h3>
+                    <p>Experienced in orchestrating multi-agent systems using ReAct frameworks and finite-state machines. Skilled in building semantic retrieval pipelines with vector databases, embeddings, and ETL workflows.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,9 +77,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faDocker} size="3x"/>
+                    <h3>Cloud, Infrastructure & Systems</h3>
+                    <p>Professional background in enterprise systems engineering at Merck (Sigma-Aldrich) — Windows server administration, identity management, Active Directory, and global security migration projects.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
