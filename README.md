@@ -49,5 +49,3 @@ The profile photo is loaded directly from GitHub's avatar API:
 ```
 https://avatars.githubusercontent.com/Gowrikamahesh17
 ```
-
-No manual upload needed — it automatically reflects the photo set on the GitHub account at `github.com/Gowrikamahesh17`. To use a custom photo instead, place an image in `src/assets/images/` and import it in `Main.tsx`.
